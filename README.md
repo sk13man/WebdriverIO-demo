@@ -1,2 +1,2 @@
-yarn install
-yarn run tests:e2e
+yarn install - to install dependencies and 
+yarn run tests:e2e - to run tests
