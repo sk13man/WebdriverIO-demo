@@ -1,0 +1,11 @@
+{
+  "browsertime":{
+    "iterations": 1,
+
+    "browser": "chrome",
+    "visualMetrics": false,
+    "video": false,
+    "headless": false,
+    "screenshot": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "target": "es2017",
+      "allowJs": true,
+      "outDir": "compiled",
+      "sourceMap": true,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": ["dom", "esnext", "es2017"],
+      "types": ["@types/chai", "node", "@wdio/sync"],
+      "typeRoots": ["./types"],
+      "noImplicitAny": false,
+      "allowSyntheticDefaultImports": true
+    },
+    "files": ["wdio.conf.ts"],
+    "exclude": ["node_modules"]
+  }
+  
